@@ -1,6 +1,6 @@
 # Sole Street - Sneaker Selling Store
 
-A simple sneaker selling website made for AAT-1 Full Stack Web Development.
+A simple sneaker selling website developed for the AAT-1 Full Stack Web Development assessment.
 
 ## Technologies Used
 - HTML
@@ -25,20 +25,4 @@ A simple sneaker selling website made for AAT-1 Full Stack Web Development.
 - Navigation between pages
 
 ## How to Run
-Open `index.html` in a browser.
-
-## GitHub Submission
-Create a GitHub repository and upload the complete `sneaker_store_AAT1` folder.
-
-Example Git commands:
-
-```bash
-git init
-git add .
-git commit -m "AAT-1 Sneaker Store"
-git branch -M main
-git remote add origin YOUR_GITHUB_REPOSITORY_URL
-git push -u origin main
-```
-
-This is a frontend academic project. The payment form is only a demonstration and does not process real payments.
+Open `index.html` in a web browser.

@@ -2,6 +2,10 @@
 
 A simple sneaker selling website developed for Term Work 1 of the Full Stack Web Development course.
 
+## Live Website
+
+👉 https://mohammedabdulahadsaud.github.io/Full-Stack-Web-Development-Work/TW-1/
+
 ## Technologies Used
 
 - HTML
@@ -31,6 +35,4 @@ A simple sneaker selling website developed for Term Work 1 of the Full Stack Web
 
 Open `index.html` in a web browser.
 
-## Live Website
 
-👉 https://mohammedabdulahadsaud.github.io/Full-Stack-Web-Development-Work/TW-1/

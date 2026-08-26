@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Checkout | Sole Street</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="site-header">
+  <nav class="navbar container" aria-label="Main navigation">
+    <a class="logo" href="index.html">SOLE<span>STREET</span></a>
+    <div class="nav-links"><a href="index.html">Home</a><a href="products.html">Shop</a><a class="cart-link" href="cart.html">Bag <span class="cart-count">0</span></a></div>
+  </nav>
+</header>
+
+<main class="page checkout-page">
+  <div class="checkout-steps"><span class="done">01 Bag</span><span class="current">02 Details</span><span>03 Confirmation</span></div>
+  <div class="page-heading left-heading"><p class="eyebrow">SECURE CHECKOUT</p><h1>Complete your order.</h1></div>
+
+  <div class="checkout-layout">
+    <form id="payment-form" class="payment-form" novalidate>
+      <div class="form-section"><h2>01 / Customer details</h2>
+        <div class="form-grid">
+          <label>Full name<input type="text" id="name" autocomplete="name" placeholder="Alex Johnson" required></label>
+          <label>Email address<input type="email" id="email" autocomplete="email" placeholder="alex@email.com" required></label>
+          <label>Phone number<input type="tel" id="phone" inputmode="numeric" autocomplete="tel" placeholder="10 digit mobile number" maxlength="10" required></label>
+          <label>Delivery address<textarea id="address" autocomplete="street-address" placeholder="House / street / city / PIN code" required></textarea></label>
+        </div>
+      </div>
+      <div class="form-section"><h2>02 / Payment</h2>
+        <div class="secure-note">⌁ Demo payment form • Never enter real card details</div>
+        <label>Card number<input type="text" id="card" inputmode="numeric" autocomplete="cc-number" placeholder="16 digit card number" maxlength="16" required></label>
+        <div class="two-inputs">
+          <label>Expiry date<input type="text" id="expiry" inputmode="numeric" placeholder="MM/YY" maxlength="5" required></label>
+          <label>CVV<input type="password" id="cvv" inputmode="numeric" autocomplete="cc-csc" placeholder="3 digits" maxlength="3" required></label>
+        </div>
+      </div>
+      <p id="payment-message" class="message" aria-live="polite"></p>
+      <button type="submit" class="btn full-btn">Place demo order <span>→</span></button>
+    </form>
+    <aside id="payment-summary" class="summary"></aside>
+  </div>
+</main>
+
+<footer class="site-footer compact-footer"><div class="container footer-bottom"><span>© 2026 Sole Street</span></div></footer>
+<div id="toast" class="toast" role="status" aria-live="polite"></div>
+<script src="js/script.js"></script>
+</body>
+</html>

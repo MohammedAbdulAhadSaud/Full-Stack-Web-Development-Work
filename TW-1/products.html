@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Shop the Sole Street sneaker collection.">
+  <title>Shop Sneakers | Sole Street</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="site-header">
+  <nav class="navbar container" aria-label="Main navigation">
+    <a class="logo" href="index.html">SOLE<span>STREET</span></a>
+    <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+    <div class="nav-links"><a href="index.html">Home</a><a class="active" href="products.html">Shop</a><a href="index.html#about">About</a><a class="cart-link" href="cart.html">Bag <span class="cart-count">0</span></a></div>
+  </nav>
+</header>
+
+<main class="page">
+  <div class="shop-hero">
+    <div>
+      <p class="eyebrow">THE COLLECTION</p>
+      <h1>Everyday sneakers.</h1>
+      <p>Six easy-to-wear styles. One simple mission: make your next pair a good one.</p>
+    </div>
+    <div class="shop-count"><strong>18</strong><span>styles<br>available</span></div>
+  </div>
+
+  <div class="shop-toolbar">
+    <div class="search-box"><span>⌕</span><input id="product-search" type="search" placeholder="Search sneakers..." aria-label="Search sneakers"></div>
+    <div class="filter-group" aria-label="Filter products">
+      <button class="filter-btn active" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="black">Black</button>
+      <button class="filter-btn" data-filter="white">White</button>
+      <button class="filter-btn" data-filter="blue">Blue</button>
+      <button class="filter-btn" data-filter="red">Red</button>
+    </div>
+    <select id="sort-products" class="sort-select" aria-label="Sort products">
+      <option value="featured">Featured</option>
+      <option value="low">Price: Low to high</option>
+      <option value="high">Price: High to low</option>
+      <option value="name">Name: A–Z</option>
+    </select>
+  </div>
+
+  <div id="product-list" class="products" aria-live="polite"></div>
+  <div id="no-products" class="empty hidden"><h2>No sneakers found</h2><p>Try another search or filter.</p><button class="btn" onclick="resetProductFilters()">Show all</button></div>
+</main>
+
+<footer class="site-footer compact-footer"><div class="container footer-bottom"><span>© 2026 Sole Street</span></div></footer>
+<div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+
+<script src="js/script.js"></script>
+</body>
+</html>

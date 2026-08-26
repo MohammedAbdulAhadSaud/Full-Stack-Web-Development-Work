@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Sole Street - stylish, affordable sneakers for everyday life.">
+  <title>Sole Street | Step Into Style</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="site-header">
+  <nav class="navbar container" aria-label="Main navigation">
+    <a class="logo" href="index.html" aria-label="Sole Street home">SOLE<span>STREET</span></a>
+    <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+    <div class="nav-links">
+      <a class="active" href="index.html">Home</a>
+      <a href="products.html">Shop</a>
+      <a href="#about">About</a>
+      <a class="cart-link" href="cart.html">Bag <span class="cart-count">0</span></a>
+    </div>
+  </nav>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="hero-inner container">
+      <div class="hero-text">
+        <p class="eyebrow">NEW SEASON • EVERYDAY ESSENTIALS</p>
+        <h1>Find your<br><span>perfect pair.</span></h1>
+        <p class="hero-copy">Clean silhouettes, everyday comfort and student-friendly prices — made for wherever the day takes you.</p>
+        <div class="hero-actions">
+          <a href="products.html" class="btn">Shop sneakers <span>→</span></a>
+          <a href="products.html?sort=low" class="text-link">Shop under ₹2,500</a>
+        </div>
+        <div class="hero-note"><span>★★★★★</span> Loved by everyday sneaker people</div>
+      </div>
+      <div class="hero-visual">
+        <div class="hero-card hero-card-main">
+          <img src="https://images.pexels.com/photos/4932920/pexels-photo-4932920.jpeg?auto=compress&cs=tinysrgb&w=1000" alt="Black street runner sneaker">
+          <span class="floating-tag">BESTSELLER</span>
+        </div>
+        <div class="hero-card hero-card-small">
+          <img src="https://images.pexels.com/photos/12739984/pexels-photo-12739984.jpeg?auto=compress&cs=tinysrgb&w=500" alt="White sneaker">
+        </div>
+        <div class="hero-circle">SOLE<br>STREET</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="trust-strip">
+    <div class="container trust-grid">
+      <div><span>01</span><strong>Free delivery</strong><small>On orders over ₹2,999</small></div>
+      <div><span>02</span><strong>Easy returns</strong><small>7-day return policy demo</small></div>
+      <div><span>03</span><strong>Secure checkout</strong><small>Simple front-end payment flow</small></div>
+      <div><span>04</span><strong>Student pricing</strong><small>Style without overspending</small></div>
+    </div>
+  </section>
+
+  <section class="section container">
+    <div class="section-heading">
+      <div>
+        <p class="eyebrow">CURATED FOR YOU</p>
+        <h2>Trending now</h2>
+      </div>
+      <a class="text-link" href="products.html">View all products →</a>
+    </div>
+    <div class="mini-products">
+      <a class="mini-product" href="products.html">
+        <div><img src="https://images.pexels.com/photos/4932920/pexels-photo-4932920.jpeg?auto=compress&cs=tinysrgb&w=700" alt="Street Runner"></div>
+        <span>01 / Street Runner</span><b>₹2,499</b>
+      </a>
+      <a class="mini-product" href="products.html">
+        <div><img src="https://images.pexels.com/photos/12739984/pexels-photo-12739984.jpeg?auto=compress&cs=tinysrgb&w=700" alt="Urban White"></div>
+        <span>02 / Urban White</span><b>₹2,799</b>
+      </a>
+      <a class="mini-product" href="products.html">
+        <div><img src="https://images.pexels.com/photos/1461538/pexels-photo-1461538.jpeg?auto=compress&cs=tinysrgb&w=700" alt="Campus Classic"></div>
+        <span>03 / Campus Classic</span><b>₹1,999</b>
+      </a>
+    </div>
+  </section>
+
+  <section id="about" class="editorial">
+    <div class="container editorial-grid">
+      <div class="editorial-image">
+        <img src="https://images.pexels.com/photos/1456733/pexels-photo-1456733.jpeg?auto=compress&cs=tinysrgb&w=1000" alt="Sneakers styled for everyday streetwear">
+      </div>
+      <div class="editorial-copy">
+        <p class="eyebrow">WHY SOLE STREET?</p>
+        <h2>Good shoes.<br>Better everyday.</h2>
+        <p>Sole Street is a student-focused sneaker concept built around simple shopping, honest pricing and versatile styles. Browse, add to your bag and experience a clean checkout flow.</p>
+        <div class="stat-row">
+          <div><strong>6+</strong><span>styles</span></div>
+          <div><strong>₹1,999</strong><span>starting price</span></div>
+          <div><strong>24/7</strong><span>online shopping</span></div>
+        </div>
+        <a class="btn btn-light" href="products.html">Explore collection</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="newsletter container">
+    <div><p class="eyebrow">STAY IN THE LOOP</p><h2>New drops. No noise.</h2><p>Get product updates and occasional offers.</p></div>
+    <form id="newsletter-form" class="newsletter-form">
+      <label class="sr-only" for="newsletter-email">Email address</label>
+      <input id="newsletter-email" type="email" placeholder="Your email address" required>
+      <button class="btn" type="submit">Join</button>
+    </form>
+    <p id="newsletter-message" class="form-note" aria-live="polite"></p>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div><a class="logo footer-logo" href="index.html">SOLE<span>STREET</span></a><p>Everyday sneakers, made simple.</p></div>
+    <div><h3>Shop</h3><a href="products.html">All sneakers</a><a href="cart.html">Shopping bag</a></div>
+    <div><h3>Project</h3><a href="#about">About Sole Street</a><span>Academic e-commerce demo</span></div>
+    <div><h3>Support</h3><span>Demo checkout</span><span>7-day returns concept</span></div>
+  </div>
+  <div class="container footer-bottom"><span>© 2026 Sole Street</span></div>
+</footer>
+<div id="toast" class="toast" role="status" aria-live="polite"></div>
+<script src="js/script.js"></script>
+</body>
+</html>

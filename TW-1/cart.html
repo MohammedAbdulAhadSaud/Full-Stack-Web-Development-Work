@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Bag | Sole Street</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="site-header">
+  <nav class="navbar container" aria-label="Main navigation">
+    <a class="logo" href="index.html">SOLE<span>STREET</span></a>
+    <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+    <div class="nav-links"><a href="index.html">Home</a><a href="products.html">Shop</a><a href="index.html#about">About</a><a class="active cart-link" href="cart.html">Bag <span class="cart-count">0</span></a></div>
+  </nav>
+</header>
+
+<main class="page">
+  <div class="page-heading left-heading"><p class="eyebrow">YOUR SELECTION</p><h1>Shopping bag</h1><p>Review your pairs before checkout.</p></div>
+  <div id="shipping-progress" class="shipping-progress"></div>
+  <section class="cart-layout">
+    <div id="cart-items" class="cart-items"></div>
+    <aside id="cart-summary" class="summary"></aside>
+  </section>
+</main>
+
+<footer class="site-footer compact-footer"><div class="container footer-bottom"><span>© 2026 Sole Street</span><span>Secure checkout</span></div></footer>
+<div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+
+<script src="js/script.js"></script>
+</body>
+</html>

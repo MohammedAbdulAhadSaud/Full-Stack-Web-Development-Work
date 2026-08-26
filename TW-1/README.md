@@ -1,6 +1,6 @@
 # Term Work 1 – Sneaker Selling Store
 
-A simple sneaker selling website developed for Term Work 1 of the Full Stack Web Development course.
+A simple sneaker selling website developed for Term Work 1 of the Full Stack Web Development subject.
 
 ## Live Website
 

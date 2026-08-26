@@ -1,19 +1,36 @@
-# Sole Street — Final Verified Build
+# Term Work 1 – Sneaker Selling Store
 
-A clean academic e-commerce front-end demo with 18 sneaker products.
+A simple sneaker selling website developed for Term Work 1 of the Full Stack Web Development course.
 
-## Working features
-- 18-product shop catalogue
-- Search
-- Colour filters
-- Price/name sorting
-- Simple Quick View
-- Add to Bag
-- Persistent localStorage cart
-- Quantity controls
-- Remove from cart
-- Cart order summary
-- Checkout flow and front-end validation
-- Responsive black / cream / gold theme
+## Technologies Used
 
-No real payment is processed. Do not enter real card details.
+- HTML
+- CSS
+- JavaScript
+- LocalStorage
+
+## Pages
+
+- Landing Page
+- Product Display Page
+- Shopping Cart
+- Payment Page
+
+## Features
+
+- Responsive design
+- Product listing
+- Add to cart
+- Update cart quantity
+- Remove products
+- Cart data stored using LocalStorage
+- Payment form validation
+- Navigation between pages
+
+## How to Run
+
+Open `index.html` in a web browser.
+
+## Live Website
+
+[View Website](YOUR-LIVE-WEBSITE-LINK)

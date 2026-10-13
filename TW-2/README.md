@@ -49,7 +49,13 @@ mern-book-library/
 │   ├── routes/                # auth.js, books.js
 │   ├── .env.example           # sample environment variables
 │   └── server.js
-├── docs/screenshots/          # screenshots used in this README
+├── docs/
+    ├── home.png
+    ├── sign-up.png
+    ├── login.png
+    ├── Dashboard.png
+    ├── CRUD.png
+    └── DELETE.png
 ├── .gitignore
 ├── LICENSE
 └── README.md
@@ -139,17 +145,23 @@ Protected requests send the header `Authorization: Bearer <token>`.
 | rating | Number | 0–5 |
 | notes | String | optional |
 
-##  Screenshots
+## Screenshots
 
-Add your screenshots to `docs/screenshots/` and the images below will appear on GitHub.
+The following screenshots demonstrate the main features of Shelfwise, including user authentication, book management, and the dashboard.
 
-| Home | Login |
-|---|---|
-| ![Home](docs/home.png) | ![Login](docs/login.png) |
+Add your screenshots to `docs/screenshots/` using the filenames shown below.
 
-| Books (data display) | Add / Edit |
-|---|---|
-| ![Books](docs/books.png) | ![Edit](docs/edit.png) |
+### Home and Authentication
+
+| Home | Sign up | Login |
+|---|---|---|
+| ![Home](docs/home.png) | ![Sign up](docs/sign-up.png) | ![Login](docs/login.png) |
+
+### Book Management
+
+| Dashboard | Books (CRUD Operations) | Edit / Delete |
+|---|---|---|
+| ![Dashboard](docs/Dashboard.png) | ![Books CRUD](docs/CRUD.png) | ![Edit and Delete](docs/DELETE.png) |
 
 ##  Troubleshooting
 

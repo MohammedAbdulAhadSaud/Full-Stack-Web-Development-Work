@@ -145,11 +145,11 @@ Add your screenshots to `docs/screenshots/` and the images below will appear on 
 
 | Home | Login |
 |---|---|
-| ![Home](docs/screenshots/home.png) | ![Login](docs/screenshots/login.png) |
+| ![Home](docs/home.png) | ![Login](docs/login.png) |
 
 | Books (data display) | Add / Edit |
 |---|---|
-| ![Books](docs/screenshots/books.png) | ![Edit](docs/screenshots/edit.png) |
+| ![Books](docs/books.png) | ![Edit](docs/edit.png) |
 
 ##  Troubleshooting
 

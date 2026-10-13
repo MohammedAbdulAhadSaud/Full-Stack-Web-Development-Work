@@ -1,4 +1,4 @@
-# 📚 Shelfwise – MERN Stack Book Library
+#  Shelfwise – MERN Stack Book Library
 
 A simple full stack web application built with the **MERN stack** (MongoDB, Express.js, React.js, Node.js).
 Users can register, log in and manage a personal reading list — add books, track whether they are *To read*, *Reading* or *Finished*, rate them, search and filter.
@@ -7,7 +7,7 @@ Users can register, log in and manage a personal reading list — add books, tra
 
 ---
 
-## ✨ Features
+##  Features
 
 - **Home page** – landing page with sign-up / log-in call to action
 - **User registration & login** – passwords hashed with bcrypt, sessions via JWT
@@ -18,7 +18,7 @@ Users can register, log in and manage a personal reading list — add books, tra
 - **Per-user data** – each user sees only their own books
 - **Responsive design** – works on mobile, tablet and desktop
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 | Layer | Technology |
 |---|---|
@@ -27,7 +27,7 @@ Users can register, log in and manage a personal reading list — add books, tra
 | Database | MongoDB with Mongoose |
 | Auth | JSON Web Tokens (JWT), bcryptjs |
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 mern-book-library/
@@ -55,7 +55,7 @@ mern-book-library/
 └── README.md
 ```
 
-## ✅ Prerequisites
+##  Prerequisites
 
 - [Node.js](https://nodejs.org/) v18 or newer
 - [Git](https://git-scm.com/)
@@ -63,7 +63,7 @@ mern-book-library/
   - Local MongoDB / Docker: `docker run -d -p 27017:27017 --name mongo mongo:7`
   - A free [MongoDB Atlas](https://www.mongodb.com/atlas) cluster
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### 1. Clone the repository
 ```bash
@@ -104,7 +104,7 @@ Open **http://localhost:5173** in your browser.
 
 > Both terminals must stay running at the same time.
 
-## 🔌 API Endpoints
+##  API Endpoints
 
 | Method | Endpoint | Description | Auth required |
 |---|---|---|---|
@@ -119,7 +119,7 @@ Open **http://localhost:5173** in your browser.
 
 Protected requests send the header `Authorization: Bearer <token>`.
 
-## 🗃️ Database Schema
+##  Database Schema
 
 **User**
 | Field | Type | Notes |
@@ -139,7 +139,7 @@ Protected requests send the header `Authorization: Bearer <token>`.
 | rating | Number | 0–5 |
 | notes | String | optional |
 
-## 📸 Screenshots
+##  Screenshots
 
 Add your screenshots to `docs/screenshots/` and the images below will appear on GitHub.
 
@@ -151,7 +151,7 @@ Add your screenshots to `docs/screenshots/` and the images below will appear on 
 |---|---|
 | ![Books](docs/screenshots/books.png) | ![Edit](docs/screenshots/edit.png) |
 
-## 🧰 Troubleshooting
+##  Troubleshooting
 
 | Problem | Fix |
 |---|---|
@@ -161,13 +161,13 @@ Add your screenshots to `docs/screenshots/` and the images below will appear on 
 | `Port 5173 is in use` | Another Vite instance is running. Stop it with `Ctrl + C` |
 | `secretOrPrivateKey must have a value` | `server/.env` is missing or `JWT_SECRET` is empty |
 
-## 🔒 Security Notes
+##  Security Notes
 
 - Never commit `server/.env` (already listed in `.gitignore`).
 - Passwords are hashed with bcrypt before they are stored.
 - Use a long random `JWT_SECRET` in any real deployment.
 
-## 👤 Author
+##  Author
 
 **Your Name** – Roll No. XXXX – Your Class / Division
 Subject: Full Stack Development – Term Work-2

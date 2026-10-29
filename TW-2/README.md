@@ -73,7 +73,7 @@ mern-book-library/
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/<your-username>/mern-book-library.git
+git clone https://github.com/MohammedAbdulAhadSaud/mern-book-library.git
 cd mern-book-library
 ```
 
